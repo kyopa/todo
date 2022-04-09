@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA9wJQk9-vbE6tHHgqJwn_W1wNb9lducL0",
-  authDomain: "todo-e95bf.firebaseapp.com",
-  projectId: "todo-e95bf",
-  storageBucket: "todo-e95bf.appspot.com",
-  messagingSenderId: "850143507802",
-  appId: "1:850143507802:web:0b0601fae011d072956f63"
+  apiKey: "AIzaSyBrHqTPRky74aTzxFYtd4UI8FeDQpkKFeU",
+  authDomain: "fuckyou-b4fbc.firebaseapp.com",
+  projectId: "fuckyou-b4fbc",
+  storageBucket: "fuckyou-b4fbc.appspot.com",
+  messagingSenderId: "1061479407308",
+  appId: "1:1061479407308:web:158f22fa7ea7667e926c69"
 };
 
 // Initialize Firebase
@@ -19,3 +19,4 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
 
 export default db
+

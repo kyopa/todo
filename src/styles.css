@@ -1,0 +1,68 @@
+body, html {
+    font-family: my font;
+    color: rgb(159, 233, 49);
+    height: 100%;
+    width: 100%;
+    
+}
+
+button {
+    background-color: rgb(159, 233, 49);
+    
+}
+
+@font-face {
+    font-family: "my font";
+    src: url("/home/kyopa/repos/todo/src/BurbankBigCondensed-Black.otf");
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 5rem;
+    justify-content: center;
+    
+}
+
+input {
+    display: block;
+}
+
+.task-details {
+    margin: 10px;
+    font-size: 1rem;
+    border: 0;
+    outline: none;
+    
+}
+
+.desc, .due-date, .title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: fit-content;
+    
+}
+
+h4, h3 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .display {
+    height: 40px
+}
+
+
