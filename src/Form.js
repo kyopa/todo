@@ -11,7 +11,7 @@ const Form = (props) => {
     const [isClicked2, setIsClicked2] = useState(false)
     
     return(
-        <div>
+        <div className="new">
             <button onClick={() => setIsClicked(!isClicked)}>new task</button>
             {isClicked ? <TaskForm setIsClicked={setIsClicked} newTask={newTask}/> : null}
             {isClicked2 ? <ProjectForm setIsClicked2={setIsClicked2} newProject={newProject}/> : null}
@@ -48,7 +48,7 @@ const TaskForm = (props) => {
     }, [])
 
     return (
-        <div>
+        <div className="task-form">
 
             <label>In Which Project?</label>
             <input defaultValue={project} onChange={(e) => project = e.target.value}></input>

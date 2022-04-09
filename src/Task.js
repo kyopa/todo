@@ -94,11 +94,8 @@ const Task = () => {
                 <button key={crypto.randomUUID()} onClick={(e) => switchIsClicked(setTasks, task, e)} className="task-details">edit</button>
                 <Delete task={task} tasks={tasks} setTasks={setTasks}/>
             </div>
-
         </div>
     }
-
-
 
     function handleChange(target, task) {
         update(task.project, task.id, target.dataset.id, target.value)

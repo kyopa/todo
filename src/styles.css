@@ -8,7 +8,10 @@ body, html {
 
 button {
     background-color: rgb(159, 233, 49);
-    
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    font-family: my font;
 }
 
 @font-face {
@@ -30,7 +33,6 @@ button {
 .header h1 {
     font-size: 5rem;
     justify-content: center;
-    
 }
 
 input {
@@ -42,7 +44,6 @@ input {
     font-size: 1rem;
     border: 0;
     outline: none;
-    
 }
 
 .desc, .due-date, .title {
@@ -63,6 +64,31 @@ h4, h3 {
 
 .buttons .display {
     height: 40px
+}
+
+.task-form {
+    border: 1px solid black;
+    padding: 40px;
+    background-color: white;
+    
+    width: fit-content;
+    position: relative;
+    top: 60px;
+}
+
+.task-form button {
+    margin-top: 20px;
+}
+
+.new {
+    display: flex;
+    gap: 50px;
+}
+
+.new button {
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
 
 
