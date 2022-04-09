@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.e7c7e16f.css",
+    "main.js": "/react-gh-pages/static/js/main.059d918c.js",
+    "static/media/BurbankBigCondensed-Black.otf": "/react-gh-pages/static/media/BurbankBigCondensed-Black.855d754e53e004037bf1.otf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.e7c7e16f.css.map": "/react-gh-pages/static/css/main.e7c7e16f.css.map",
+    "main.059d918c.js.map": "/react-gh-pages/static/js/main.059d918c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7c7e16f.css",
+    "static/js/main.059d918c.js"
+  ]
+}
